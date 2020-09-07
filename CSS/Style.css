@@ -1,0 +1,23 @@
+body {
+   background-image: url(/Img/image.png);
+   background-size: auto ;
+   background-repeat: no-repeat;
+}
+
+#empty_block {
+   height: 63px;
+}
+
+.column {
+   display: flex;
+   flex-direction: column;
+}
+
+#feedback, #recearch, #define, #ideation, #prototype, #user_testing,
+#design, #implementation {   
+   width: 200px;
+   height: 81px;
+   margin-left: 381px;
+   margin-top: 26px;
+   cursor: pointer;
+}
